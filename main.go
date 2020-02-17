@@ -14,8 +14,8 @@ func info() {
 	app.Usage = "Simple CLI for setting up Go WebAssembly frontend app."
 	app.Authors = []*cli.Author{
 		&cli.Author{
-			Name:  "v1rtl (twitter.com/v1rtl)"
-		}
+			Name:  "v1rtl (twitter.com/v1rtl)",
+		},
 	}
 	app.Version = "0.0.8"
 }
