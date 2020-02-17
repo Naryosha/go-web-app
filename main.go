@@ -12,7 +12,11 @@ var app = cli.NewApp()
 func info() {
 	app.Name = "go-web-app"
 	app.Usage = "Simple CLI for setting up Go WebAssembly frontend app."
-	app.Author = "v1rtl (twitter.com/v1rtl)"
+	app.Authors = []*cli.Author{
+		&cli.Author{
+			Name:  "v1rtl (twitter.com/v1rtl)"
+		}
+	}
 	app.Version = "0.0.8"
 }
 
